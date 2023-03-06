@@ -1,0 +1,58 @@
+
+
+.menu__item{
+    padding-left: 79px;
+    padding-top: 59px;
+    padding-bottom: 68px;
+}
+.contacts__phone{
+    padding-left: 74px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+.contacts__call{
+    padding-top: 42px;
+    padding-left: 102px;
+    color: #9A9A9A;
+    font-size: 11px;
+}
+
+.socials__item{
+    display: inline-block;
+   vertical-align: middle;
+   margin-right: 10px;
+}
+.socials {
+    position: absolute;
+    top: 53px;
+    right: 300px;
+    margin-right: 274px;
+    margin-top: 49px;
+    margin-bottom: 61px;
+}
+.socials__link{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.socials__item{
+    margin-right: 0;
+}
+.socials__list{
+    top: 49px;
+    right: 300px;
+}
+.socials__img--icon--telegram .socials__link:hover{
+    background-image: url("/../../img/telegraь.svg")
+}
+.socials__img--icon--f.socials__link:hover{
+    background-image: url("./../../img/f.svg")
+}
+.socials__img--icon--vk.socials__link:hover{
+    background-image: url("./../../img/vk.svg")
+}
+.socials__img--icon--in.socials__link:hover{
+    background-image: url("./../../img/in.svg")
+}

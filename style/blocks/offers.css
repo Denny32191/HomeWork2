@@ -1,0 +1,44 @@
+.title--icon{
+    /* background: url("/img/flame.svg");
+    width: 30px;
+    height: 30px; */
+}
+
+.offers__img{
+    margin-bottom: 33px;
+}
+.offers__feature{
+    display: inline-block;
+    margin-bottom: 23px;
+}
+.offers__text{
+    margin-bottom: 24px;
+    color: #303030;
+    size: 14px;
+}
+.offers__item{
+    margin-right: 27px;
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+}
+.offers__title{
+    color: black;
+    font-weight: 700;
+    size: 24px;
+}
+.offers__features-text{
+    color: #666666;
+    size:  16px; 
+}
+.offers{
+    margin-bottom: 127px;
+}
+.offers__content{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+.offers__item:last-child{
+    margin-right: 0;
+}

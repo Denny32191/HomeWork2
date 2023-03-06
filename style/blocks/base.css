@@ -1,0 +1,179 @@
+html {
+	font-family: "Open Sans";
+	scroll-behavior: smooth;
+	font-size: 16px;
+}
+
+body,
+html {
+	height: 100%;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	color: #fff;
+	margin: 0;
+}
+
+button {
+	border: 0;
+	cursor: pointer;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+	margin: 0;
+}
+
+p {
+	margin-top:  0;
+	padding: 0;
+}
+
+button {
+	cursor: pointer;
+}
+a {
+	color: inherit;
+	cursor: pointer;
+	text-decoration: none;
+	transition: 0.3s all;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+.wrapper__content {
+	position: relative;
+    height: 100%;
+}
+
+.wrapper__content--main {
+    background: url("../../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	max-width: 1141px;
+}
+
+.logo,.socials,.socials__link,.menu, .menu__item,.pagination__item, .contacts{
+    display: inline-block;
+}
+.logo,.contacts,.socials.socials__link{
+    margin-top: 29px;
+}
+.logo.logo__img{
+    float: left;
+}
+.contacts{
+    float: right;
+}
+.pagination__info{
+    margin-right: 25px;
+}
+.pagination{
+    margin-left: 300px;
+    margin-top: 57px;
+}
+.pagination__list,.pagination__info{
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu{
+    margin-left: 79px;
+    margin-top: 43px;
+}
+.menu__item{
+    margin-right: 54px;
+}
+.pagination__item{
+    margin-right: 24px
+}
+.menu__item:last-child{
+    margin-right: 0px;
+}
+.pagination__item:last-child{
+    margin-right: 0px;
+}
+.contacts__phone{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 35px;
+}
+.contacts__info{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    text-align: end;
+}
+.button{
+    display: block;
+    background: #F5170E;
+    border-radius: 35px;
+    padding: 18px 0;
+    width: 168px;
+    color: #fff;
+    text-align: center;
+}
+
+.title{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 49px;
+    position: relative;
+}
+
+.title--black{
+    color: #000;
+}
+.hello__title{
+    font: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+}
+.offers__title{
+	margin-bottom: 50px;
+}
+.footer{
+    height: 146px;
+    position: relative;
+    color: black;
+}
+
+
+
+
