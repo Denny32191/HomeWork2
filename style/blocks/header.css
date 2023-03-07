@@ -1,6 +1,20 @@
+
+.header__container{
+    display: flex;
+    align-items: center;
+    padding-top: 29px;
+}
+.contacts{
+    margin-left: auto;
+}
+
+.menu__item{
+    margin-left: 54px;
+}
+.menu__item:first-child{
+    margin-left: 0;
+
+}
 .header{
-    margin-top: 29px;
-    margin-bottom: 135px;
-    
-    }
-    
+    margin-bottom: 131px;
+}

@@ -63,7 +63,10 @@ img {
 }
 
 .wrapper {
+    background: url("../../img/background.jpg");
+    background-size: cover;
 	min-height: 100%;
+    background-repeat: no-repeat;
 }
 .wrapper__content {
 	position: relative;
@@ -71,7 +74,6 @@ img {
 }
 
 .wrapper__content--main {
-    background: url("../../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -83,11 +85,8 @@ img {
 	max-width: 1141px;
 }
 
-.logo,.socials,.socials__link,.menu, .menu__item,.pagination__item, .contacts{
+.logo,.socials,.socials__link,.menu, .menu__item,.contacts{
     display: inline-block;
-}
-.logo,.contacts,.socials.socials__link{
-    margin-top: 29px;
 }
 .logo.logo__img{
     float: left;
@@ -100,19 +99,15 @@ img {
 }
 .pagination{
     margin-left: 300px;
-    margin-top: 57px;
 }
-.pagination__list,.pagination__info{
+.pagination__info{
     display: inline-block;
     vertical-align: middle;
 }
 .menu{
     margin-left: 79px;
-    margin-top: 43px;
 }
-.menu__item{
-    margin-right: 54px;
-}
+
 .pagination__item{
     margin-right: 24px
 }
@@ -127,6 +122,7 @@ img {
     font-weight: 400;
     font-size: 26px;
     line-height: 35px;
+    
 }
 .contacts__info{
     font-style: normal;
@@ -173,7 +169,8 @@ img {
     position: relative;
     color: black;
 }
+.menu__link{
+    color: white;
 
-
-
+}
 

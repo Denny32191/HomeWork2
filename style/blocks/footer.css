@@ -1,43 +1,33 @@
+.footer__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.socials{
+    margin-left: auto;
+}
+.footer__contacts{
+    margin-left: 74px;
 
-
-.menu__item{
-    padding-left: 79px;
-    padding-top: 59px;
-    padding-bottom: 68px;
 }
 .contacts__phone{
-    padding-left: 74px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    color: white;
 }
 .contacts__call{
-    padding-top: 42px;
-    padding-left: 102px;
+    text-align: right;
+}
+.contacts__call{
     color: #9A9A9A;
     font-size: 11px;
 }
 
 .socials__item{
-    display: inline-block;
+   display: inline-block;
    vertical-align: middle;
    margin-right: 10px;
 }
-.socials {
-    position: absolute;
-    top: 53px;
-    right: 300px;
-    margin-right: 274px;
-    margin-top: 49px;
-    margin-bottom: 61px;
-}
-.socials__link{
-    display: inline-block;
-    vertical-align: middle;
-    margin-right: 10px;
-    margin-left: 10px;
-}
 
-.socials__item{
+.socials__item:last-child{
     margin-right: 0;
 }
 .socials__list{

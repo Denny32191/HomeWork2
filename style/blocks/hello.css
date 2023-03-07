@@ -18,3 +18,11 @@
     padding-bottom: 18px;
     
 }
+.news__content-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 25px 30px;
+    min-width: 140px;
+}
