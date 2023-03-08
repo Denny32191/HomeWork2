@@ -8,12 +8,12 @@
 .hello__text{
     margin-bottom: 34px;
 }
-.button{
+.button--small--light{
     font-size: 14px;
     font-weight: 700;
     line-height: 19px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 18px;
     padding-bottom: 18px;
     

@@ -3,6 +3,7 @@
     height: 32px;
     background: white;
     border-radius: 50%;
+
     
 }
 .pagination{
@@ -19,4 +20,10 @@
 }
 .pagination__list{
     display: flex;
-}
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0px;
+    text-align: left;
+    }

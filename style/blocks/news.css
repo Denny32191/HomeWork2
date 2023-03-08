@@ -1,5 +1,5 @@
 .title{
-  margin-bottom: 51px;
+  margin-bottom: 37px;
 }
 .news__item{
   width: 557px;
@@ -25,14 +25,13 @@
   min-height: 120px;
 }
 .news__date{
+  margin-bottom: 18px;
   font-size: 14px;
-  margin-bottom: 12px;
 }
 .news__comercial{
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 5px;
-  text-transform: lowercase;
 }
 .news__list{
   display: flex;
@@ -45,3 +44,8 @@
 .news{
   margin-bottom: 152px;
 }
+.news__tagline{
+  height: 50px;
+}
+
+
