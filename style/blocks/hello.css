@@ -10,7 +10,7 @@
 }
 .button--small--light{
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 700px;
     line-height: 19px;
     padding-left: 30px;
     padding-right: 30px;
@@ -19,13 +19,21 @@
     text-transform: uppercase;
     height: 55px;
     width: 135px;
-    
+
 }
 .news__content-content{
     position: absolute;
+    font-weight:700px;
     left: 0;
     right: 0;
     bottom: 0;
     padding: 25px 30px;
     min-width: 140px;
 }
+.button--small--light {
+    color: red;
+    background-color: white;
+    border: solid 1px red;
+    text-transform: uppercase;
+  }
+
