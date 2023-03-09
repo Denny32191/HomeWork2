@@ -74,19 +74,7 @@
       line-height: 1.5;
       margin-bottom: 20px;
     }
-    
-    .button--small--light {
-      color: red;
-    background-color: white;
-      border: solid 1px red;
-      height: 55px;
-      width: 135px;
-      left: 413px;
-      top: 1243px;
-      border-radius: 35px;
-
-    
-    }
+  
     .offers__features{
       display: flex;
     }
@@ -102,4 +90,14 @@
       width: 135px;
       color: #fff;
       text-align: center;
+      height: 55px;
+      font-weight: 700;
+      font-size: 14px;
+  }
+  .button--red{
+    text-transform: uppercase;
+
+  }
+  .button--small--light {
+    text-transform: uppercase;
   }

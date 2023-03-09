@@ -16,6 +16,9 @@
     padding-right: 30px;
     padding-top: 18px;
     padding-bottom: 18px;
+    text-transform: uppercase;
+    height: 55px;
+    width: 135px;
     
 }
 .news__content-content{

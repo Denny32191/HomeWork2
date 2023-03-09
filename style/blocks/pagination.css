@@ -9,6 +9,7 @@
 .pagination{
     display: flex;
     align-items: center;
+
 }
 .pagination__item{
     display: flex;
